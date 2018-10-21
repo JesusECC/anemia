@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => anemia\User::class,
+            'model' => sinanemia\User::class,
         ],
 
         // 'users' => [

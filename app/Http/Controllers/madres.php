@@ -1,10 +1,10 @@
 <?php
 
-namespace anemia\Http\Controllers;
+namespace sinanemia\Http\Controllers;
 
 use Illuminate\Http\Request;
-use anemia\Madress;
-use anemia\Http\Requests;
+use sinanemia\Madress;
+use sinanemia\Http\Requests;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Redirect;
 use Response;

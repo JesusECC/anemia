@@ -1,6 +1,6 @@
 <?php
 
-namespace anemia;
+namespace sinanemia;
 
 use Illuminate\Database\Eloquent\Model;
 

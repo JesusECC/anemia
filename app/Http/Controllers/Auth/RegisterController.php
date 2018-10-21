@@ -1,9 +1,9 @@
 <?php
 
-namespace anemia\Http\Controllers\Auth;
+namespace sinanemia\Http\Controllers\Auth;
 
-use anemia\User;
-use anemia\Http\Controllers\Controller;
+use sinanemia\User;
+use sinanemia\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
@@ -59,7 +59,7 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
-     * @return \anemia\User
+     * @return \sinanemia\User
      */
     protected function create(array $data)
     {

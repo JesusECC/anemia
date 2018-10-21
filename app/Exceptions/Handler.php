@@ -1,6 +1,6 @@
 <?php
 
-namespace anemia\Exceptions;
+namespace sinanemia\Exceptions;
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;

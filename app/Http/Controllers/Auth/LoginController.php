@@ -1,8 +1,8 @@
 <?php
 
-namespace anemia\Http\Controllers\Auth;
+namespace sinanemia\Http\Controllers\Auth;
 
-use anemia\Http\Controllers\Controller;
+use sinanemia\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
 class LoginController extends Controller

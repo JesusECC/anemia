@@ -1,6 +1,6 @@
 <?php
 
-namespace anemia\Providers;
+namespace sinanemia\Providers;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'anemia\Model' => 'anemia\Policies\ModelPolicy',
+        'sinanemia\Model' => 'sinanemia\Policies\ModelPolicy',
     ];
 
     /**

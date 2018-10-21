@@ -1,6 +1,6 @@
 <?php
 
-namespace anemia\Http\Controllers;
+namespace sinanemia\Http\Controllers;
 
 use Illuminate\Http\Request;
 

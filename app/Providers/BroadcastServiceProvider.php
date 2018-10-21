@@ -1,6 +1,6 @@
 <?php
 
-namespace anemia\Providers;
+namespace sinanemia\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Broadcast;

@@ -1,6 +1,6 @@
 <?php
 
-namespace anemia\Http\Middleware;
+namespace sinanemia\Http\Middleware;
 
 use Illuminate\Cookie\Middleware\EncryptCookies as Middleware;
 

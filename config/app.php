@@ -168,11 +168,11 @@ return [
         /*
          * Application Service Providers...
          */
-        anemia\Providers\AppServiceProvider::class,
-        anemia\Providers\AuthServiceProvider::class,
-        // anemia\Providers\BroadcastServiceProvider::class,
-        anemia\Providers\EventServiceProvider::class,
-        anemia\Providers\RouteServiceProvider::class,
+        sinanemia\Providers\AppServiceProvider::class,
+        sinanemia\Providers\AuthServiceProvider::class,
+        // sinanemia\Providers\BroadcastServiceProvider::class,
+        sinanemia\Providers\EventServiceProvider::class,
+        sinanemia\Providers\RouteServiceProvider::class,
 
     ],
 

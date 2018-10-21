@@ -25,7 +25,7 @@
             "database/factories"
         ],
         "psr-4": {
-            "anemia\\": "app/"
+            "sinanemia\\": "app/"
         }
     },
     "autoload-dev": {

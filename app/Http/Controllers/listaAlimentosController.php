@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace sinanemia\Http\Controllers;
 
 use Illuminate\Http\Request;
 
 use Response;
 use DB;
-use App\alimentos;
+use sinanemia\alimentos;
 
 class listaAlimentosController extends Controller
 {
@@ -17,7 +17,7 @@ class listaAlimentosController extends Controller
     public function show(){
         $cart= \Session::get('cart');
         
-        return  view('alimentos.listaAlimentos');
+        return  view('alimentos.listaAlimentos',['cart'=>$cart]);
     }
     public function add(alimentos $alimento,$id){
 

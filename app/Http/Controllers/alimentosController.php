@@ -1,6 +1,6 @@
 <?php
 
-namespace anemia\Http\Controllers;
+namespace sinanemia\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Response;
@@ -25,7 +25,7 @@ class alimentosController extends Controller
         $alimentos=DB::table('Tabla_alimentos')
     //    ->where('nombre','LIKE','%'.$query.'%')
     //    ->select('id','nombre','tamaño','peso','proteina','femg','vitamina','imagen','tipo')
-    ->get();
+        ->get();
     //    ->orderby('id','asc');
     //    ->paginate(10);
         // dd($alimentos);

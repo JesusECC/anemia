@@ -31,7 +31,7 @@ return [
     ],
 
     'stripe' => [
-        'model' => anemia\User::class,
+        'model' => sinanemia\User::class,
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
         'webhook' => [
